@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@
 .header-text {
     clear: both;
 color: #212121;
-font-family: "Montserrat - Thin";
+font-family: Montserrat - Thin;
 font-size: 62px;
 font-weight: 400;
 font-style: normal;
@@ -32,10 +33,13 @@ text-align: left;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
+padding-bottom: 56px;
+padding-top: 171px;
+padding-left: 3px;
 }
 .text-head{
     color: #212121;
-    font-family: "Montserrat - Thin";
+    font-family: Montserrat - Thin;
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
@@ -62,12 +66,12 @@ text-decoration: none;
 }
 .menu-link:hover{
     color: #212121;
-    font-family: "Montserrat";
+    font-family: Montserrat;
 }
 
 .menu-link-active{
 color: #212121;
-font-family: "Montserrat - Bold";
+font-family: Montserrat - Bold;
 font-weight: 700;
 font-style: normal;
 letter-spacing: 1.4px;
@@ -142,7 +146,7 @@ margin: 23px 50px 63px 49px;
 }
 .phnumb{
     color: #212121;
-font-family: "Montserrat - Bold";
+font-family: Montserrat - Bold;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
@@ -151,7 +155,7 @@ text-align: center;
 }
 .address{
 /* Text style for "12 W 1st S" */
-font-family: "Montserrat Light";
+font-family: Montserrat Light;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;
