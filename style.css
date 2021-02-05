@@ -7,11 +7,32 @@
     margin: 0 auto;
     height: 360px;
 }
+
 .menu-list{
     list-style-type: none;
+    display: inline;
+    
+}
+.logo {
+    float: left;
 }
 .menu{
     float: right;
+}
+.header-text {
+    clear: both;
+
+color: #212121;
+font-family:'Montserrat - Thin';
+font-size: 62px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 72px;
+text-align: left;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
 .menu-link{
  
@@ -24,8 +45,18 @@ letter-spacing: normal;
 line-height: 48px;
 text-align: right;
 text-transform: uppercase;
-
+padding: 10px 13px;
+text-decoration: none;
 }
+.menu-link:hover{
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    line-height: normal;
+}
+
 .menu-link-active{
 color: #212121;
 font-family: "Montserrat - Bold";
@@ -34,9 +65,16 @@ font-style: normal;
 letter-spacing: 1.4px;
 line-height: normal;
 }
+.searchimg{
+    width: 23px;
+    height: 23px;
+}
 .header{
     background-image: url(img/hero-back.svg);
     height: 360px;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 63px;
 }
 .main-content{
     width: 1366px;
@@ -114,6 +152,7 @@ text-align: center;
 .footer{
     background-image: url(img/hero-back.svg);
     margin-bottom: 0px;
+    height: 384px;
 }
 .clearfix::after{
     content:"";
