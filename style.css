@@ -272,3 +272,40 @@ line-height: 26px;
 text-align: left;
 text-transform: uppercase
 }
+.letstay-text{
+    color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 22px;
+text-align: left;
+margin-top: 24px;
+}
+.letstay{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+padding-top: 120px;
+padding-left: 263px;
+}
+.copy{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 26px;
+text-align: left;
+text-transform: uppercase;
+padding-left: 98px;
+padding-top: 77px;
+}
