@@ -127,6 +127,7 @@ padding-left: 3px;
     float: left;
     margin-top: 71px;
     text-align: center;
+    margin-bottom: 122px;
 }
 
 .content-h3 {
@@ -196,4 +197,78 @@ padding-left: 3px;
     content: "";
     display: table;
     clear: both;
+}
+.contact{
+      color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+float:left;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: normal;
+margin-left: 99px;
+margin-top: 120px;
+
+}
+.contact-text{
+    width: 221px;
+height: 102px;
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 22px;
+text-align: left;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin-top: 24px;
+
+}
+.useful{
+    float:left;
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+margin-top: 120px;
+margin-left: 168px;
+}
+.ltext{
+    float: left;
+    
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 26px;
+text-align: left;
+text-transform: uppercase
+}
+.rtext{
+    
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 26px;
+text-align: left;
+text-transform: uppercase
 }
