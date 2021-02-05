@@ -1,45 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
-*{
+@font-face {
+    src: url('./assets/fonts/Montserrat-Thin.ttf');
+    font-family: 'Montserrat-Thin';
+}
+
+@font-face {
+    src: url('./assets/fonts/Montserrat-Bold.ttf');
+    font-family: 'Montserrat-Bold';
+}
+
+@font-face {
+    src: url('./assets/fonts/Montserrat-Light.ttf');
+    font-family: 'Montserrat-Light';
+}
+
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     width: 1366px;
     margin: 0 auto;
     height: 360px;
 }
 
-.menu-list{
+.menu-list {
     list-style-type: none;
     display: inline;
-    
 }
+
 .logo {
     float: left;
 }
-.menu{
+
+.menu {
     float: right;
 }
+
 .header-text {
     clear: both;
-color: #212121;
-font-family: Montserrat - Thin;
-font-size: 62px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 72px;
-text-align: left;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-padding-bottom: 56px;
-padding-top: 171px;
-padding-left: 3px;
-}
-.text-head{
     color: #212121;
-    font-family: Montserrat - Thin;
+    font-family: Montserrat-Thin;
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
@@ -48,93 +49,102 @@ padding-left: 3px;
     text-align: left;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;   
+    line-height: normal;
+padding-bottom: 56px;
+padding-top: 171px;
+padding-left: 3px;
 }
-.menu-link{
- 
-color: #8c8c8c;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: 48px;
-text-align: right;
-text-transform: uppercase;
-padding: 10px 13px;
-text-decoration: none;
+
+.text-head {
+    color: #212121;
+    font-family: Montserrat-Thin;
+    font-size: 62px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 72px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
-.menu-link:hover{
+
+.menu-link {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-link:hover {
     color: #212121;
     font-family: Montserrat;
 }
 
-.menu-link-active{
-color: #212121;
-font-family: Montserrat - Bold;
-font-weight: 700;
-font-style: normal;
-letter-spacing: 1.4px;
-line-height: normal;
+.menu-link-active {
+    color: #212121;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    line-height: normal;
 }
-.searchimg{
+
+.searchimg {
     width: 23px;
     height: 23px;
-    
 }
-.header{
+
+.header {
     background-image: url(img/hero-back.svg);
     height: 360px;
     padding-left: 98px;
     padding-right: 98px;
     padding-top: 63px;
 }
-.main-content{
+
+.main-content {
     width: 1366px;
     padding-left: 90px;
     padding-right: 90px;
     overflow: auto;
-
 }
+
 .content {
     margin-right: 30px;
     width: 370px;
-height: 370px;
-border: 1px solid #9c9c9c;
-background-color: #ffffff;
-opacity: 0.9;
-float: left;
-margin-top: 71px;
-text-align: center;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    float: left;
+    margin-top: 71px;
+    text-align: center;
 }
-.content-h3{
-    
-color: #212121;
-font-family: Montserrat;
-font-size: 22px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 29.88px;
-text-align: center;
-text-transform: uppercase;
-margin-top: 130px ;
+
+.content-h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29.88px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 130px;
 }
-.content-text{
+
+.content-text {
     width: 271px;
-height: 138px;
-color: #6c6c6c;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 20px;
-text-align: center;
-margin: 23px 50px 63px 49px;
-}
-.text-ph{
-   
+    height: 138px;
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 14px;
@@ -142,33 +152,48 @@ margin: 23px 50px 63px 49px;
     font-style: normal;
     letter-spacing: normal;
     line-height: 20px;
-    text-align: center;  
+    text-align: center;
+    margin: 23px 50px 63px 49px;
 }
-.phnumb{
+
+.text-ph {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.phnumb {
     color: #212121;
-font-family: Montserrat - Bold;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
-.address{
-/* Text style for "12 W 1st S" */
-font-family: Montserrat Light;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+
+.address {
+    font-family: Montserrat-Light;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
-.footer{
+
+.footer {
     background-image: url(img/hero-back.svg);
     margin-bottom: 0px;
     height: 384px;
 }
-.clearfix::after{
-    content:"";
+
+.clearfix::after {
+    content: "";
     display: table;
     clear: both;
 }
