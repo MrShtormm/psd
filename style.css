@@ -50,9 +50,9 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-padding-bottom: 56px;
-padding-top: 171px;
-padding-left: 3px;
+    padding-bottom: 56px;
+    padding-top: 171px;
+    padding-left: 3px;
 }
 
 .text-head {
@@ -112,22 +112,21 @@ padding-left: 3px;
 
 .main-content {
     width: 1366px;
-    padding-left: 90px;
-    padding-right: 90px;
-    overflow: auto;
+    /* overflow: auto; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 71px;
+    padding-bottom: 122px;
 }
 
 .content {
-    margin-right: 30px;
     width: 370px;
     height: 370px;
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
-    float: left;
-    margin-top: 71px;
     text-align: center;
-    margin-bottom: 122px;
 }
 
 .content-h3 {
@@ -190,7 +189,9 @@ padding-left: 3px;
 .footer {
     background-image: url(img/hero-back.svg);
     margin-bottom: 0px;
-    height: 384px;
+    padding-top: 120px;
+    padding-left: 99px;
+    padding-right: 90px;
 }
 
 .clearfix::after {
@@ -198,8 +199,37 @@ padding-left: 3px;
     display: table;
     clear: both;
 }
-.contact{
-      color: #6c6c6c;
+
+.contact {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    float: left;
+}
+
+.footer h3 {
+    margin-bottom: 24px;
+}
+
+.contact-text {
+    /* Style for "132A Bridg" */
+    width: 221px;
+    height: 102px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    /* Text style for "132A Bridg" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.useful {
+    float: left;
+    color: #6c6c6c;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
@@ -208,104 +238,88 @@ padding-left: 3px;
     line-height: 24px;
     text-align: left;
     text-transform: uppercase;
-float:left;
-    font-style: normal;
-    letter-spacing: 1.8px;
-    line-height: normal;
-margin-left: 99px;
-margin-top: 120px;
-
-}
-.contact-text{
-    width: 221px;
-height: 102px;
-color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: 22px;
-text-align: left;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin-top: 24px;
-
-}
-.useful{
-    float:left;
-    color: #6c6c6c;
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-text-transform: uppercase;
-margin-top: 120px;
-margin-left: 168px;
-}
-.ltext{
     float: left;
-    
-color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 26px;
-text-align: left;
-text-transform: uppercase
+    padding-left: 81px;
+    padding-right: 79px;
 }
-.rtext{
-    
-color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 26px;
-text-align: left;
-text-transform: uppercase
-}
-.letstay-text{
+
+.useful-ul ul li {
+    list-style-type: none;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    font-size: 14px;
     color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: 22px;
-text-align: left;
-margin-top: 24px;
+    font-weight: 700;
 }
-.letstay{
-    color: #6c6c6c;
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-text-transform: uppercase;
-padding-top: 120px;
-padding-left: 263px;
+
+.useful-ul .ltext {
+    float: left;
+    margin-right: 103px;
 }
-.copy{
+
+.useful-ul .rtext {
+    float: right;
+}
+
+.letstay-text {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.letstay {
     color: #6c6c6c;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 26px;
-text-align: left;
-text-transform: uppercase;
-padding-left: 98px;
-padding-top: 77px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    width: 363px;
+}
+
+.copy {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.copy .social {
+    display: grid;
+    justify-content: center;
+}
+
+.copy .terms {
+    text-align: end;
+}
+
+.email {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    margin-right: 98px;
+    margin-top: 26px;
 }
